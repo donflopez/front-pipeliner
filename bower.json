@@ -1,0 +1,25 @@
+{
+  "name": "front-pipeliner",
+  "version": "0.9.0",
+  "authors": [
+    "Francisco López <donflopez@gmail.com>"
+  ],
+  "description": "Merge sync and async code in a pipeline",
+  "main": "piper.js",
+  "moduleType": [],
+  "keywords": [
+    "pipeline",
+    "sync",
+    "async",
+    "store"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
