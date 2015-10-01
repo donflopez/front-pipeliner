@@ -13,6 +13,15 @@ Pipeline = function () {
       }
     }
   };
+  
+  this.res = function (cb) {
+    this.cbStack.push(cb);
+    if (!this._started) {
+      this._next(this.data);
+    }
+
+    return this;
+  };
 
   this.pipe = function (cb) {
     return this.res(cb);
